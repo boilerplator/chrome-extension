@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "boilerplator/chrome-extension",
+  "description": "boilerplator for chrome extension",
+  "version": "1.0.0",
+  "icons": {
+    "64": "icon-64.png",
+    "128": "icon-128.png"
+  },
+  "browser_action": {
+    "default_icon": "icon-32.png",
+    "default_title": "One QRCode",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
